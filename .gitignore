@@ -1,0 +1,32 @@
+# Ignore Python bytecode
+__pycache__/
+**/__pycache__/
+
+# Ignore virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry
+poetry.lock
+.poetry/
+
+# Cache and log files
+.cache/
+*.log
+
+# Replit specific files
+.replit
+.replit.nix
+replit_zip_error_log.txt
+
+# Exclude any lib and binary caches
+lib/
+venv/lib/**
+
+# System specific
+.DS_Store
